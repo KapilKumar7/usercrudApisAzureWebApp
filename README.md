@@ -1,4 +1,7 @@
-User API Documentation
+## Application is deployed on Azure webapp
+
+
+User API Documentation  
 This document provides an overview and detailed usage instructions for the User API, including endpoints for creating, retrieving, and deleting user accounts. The API also includes a health check endpoint.
 
 Endpoints
