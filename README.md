@@ -28,9 +28,9 @@ Example :
 curl -X POST "https://userapis.azurewebsites.net/v1/api/users/account/save" \
 -H "Content-Type: application/json" \
 -d '{
-  "firstName": "Sumit",
+  "firstName": "Mohit",
   "lastName": "Kumar",
-  "email": "sumit@zoop.one"
+  "email": "mohit@zoop.one"
 }'
 
 
@@ -48,7 +48,7 @@ Response:
 400 Bad Request: User not found or other issues.
 Example:
 
-curl -X GET "https://userapis.azurewebsites.net/v1/api/users/account/get?firstName=Sumit"
+curl -X GET "https://userapis.azurewebsites.net/v1/api/users/account/get?firstName=Mohit"
 
 
 3. Delete User Account
@@ -64,10 +64,10 @@ Response:
 200 OK: User account deleted successfully.
 400 Bad Request: User not found or other issues.
 Example:
-curl -X DELETE "https://userapis.azurewebsites.net/v1/api/users/account/delete?firstName=Sumit"
+curl -X DELETE "https://userapis.azurewebsites.net/v1/api/users/account/delete?firstName=Mohit"
 
 
-4. Health Check
+4. Health Check For service Running Health
 Endpoint: /healthCheck
 
 Method: GET
